@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0B05C2421CF6BCA2006C6E53"
+               BuildableName = "sampleRecorder.app"
+               BlueprintName = "sampleRecorder"
+               ReferencedContainer = "container:sampleRecorder.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0B05C2561CF6BCA2006C6E53"
+               BuildableName = "sampleRecorderTests.xctest"
+               BlueprintName = "sampleRecorderTests"
+               ReferencedContainer = "container:sampleRecorder.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0B05C2611CF6BCA2006C6E53"
+               BuildableName = "sampleRecorderUITests.xctest"
+               BlueprintName = "sampleRecorderUITests"
+               ReferencedContainer = "container:sampleRecorder.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0B05C2421CF6BCA2006C6E53"
+            BuildableName = "sampleRecorder.app"
+            BlueprintName = "sampleRecorder"
+            ReferencedContainer = "container:sampleRecorder.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0B05C2421CF6BCA2006C6E53"
+            BuildableName = "sampleRecorder.app"
+            BlueprintName = "sampleRecorder"
+            ReferencedContainer = "container:sampleRecorder.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0B05C2421CF6BCA2006C6E53"
+            BuildableName = "sampleRecorder.app"
+            BlueprintName = "sampleRecorder"
+            ReferencedContainer = "container:sampleRecorder.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
